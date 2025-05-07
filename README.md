@@ -68,10 +68,11 @@ Sentiment analysis plays a vital role in many real-world scenarios:
 * **Politics**: Analyzing opinions in speeches, debates, or election campaigns.
 * **Healthcare**: Extracting patient emotions from feedback or consultation records.
 
-  #OUTPUT
-  https://github.com/vaish-navi0007/SENTIMENT-ANALYSIS-WITH-NLP/issues/1#issue-3045687428
 
 ### Conclusion
 
 This project provides an end-to-end pipeline for performing sentiment analysis using NLP in Python, implemented entirely in **Jupyter Notebook**. From text cleaning to vectorization and model evaluation, each step demonstrates the practical application of machine learning in analyzing textual data. The approach is modular, easy to understand, and forms the foundation for more advanced NLP systems. This notebook showcases not only technical implementation but also emphasizes model explainability and relevance in real-world use cases.
+
+  #OUTPUT
+  https://github.com/vaish-navi0007/SENTIMENT-ANALYSIS-WITH-NLP/issues/1#issue-3045687428
 
