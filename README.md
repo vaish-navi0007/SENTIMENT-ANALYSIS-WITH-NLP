@@ -12,12 +12,14 @@ INTERN ID : CT04WT240
 
 "MENTOR" : NEELA SANTOSH
 
+---
 #DESCRIPTION
 
 This project focuses on building a **Sentiment Analysis** model using **Natural Language Processing (NLP)** techniques to classify customer reviews as positive or negative. Sentiment analysis is a core task in NLP and has broad applications in business, marketing, product feedback, and social media monitoring. The primary goal of this project is to process raw text data, extract meaningful features using **TF-IDF vectorization**, and train a **Logistic Regression** model to predict sentiment polarity.
 
 For this implementation, a dataset containing customer reviews and their corresponding sentiment labels (positive or negative) was used. The dataset may be synthetic or sourced from open datasets like IMDb, Amazon, or Yelp product reviews. Each review is a piece of unstructured text data, which requires thorough preprocessing before it can be used in a machine learning model.
 
+---
 ### Tools and Technologies Used
 
 * **Python**: The programming language used to implement NLP tasks and machine learning models due to its rich ecosystem of libraries.
@@ -26,6 +28,7 @@ For this implementation, a dataset containing customer reviews and their corresp
 * **NLTK (Natural Language Toolkit)** and/or **re (regular expressions)**: Used for basic text preprocessing like tokenization, stopword removal, and cleaning special characters.
 * **Pandas & NumPy**: Used for data loading, handling, and manipulation.
 
+---
 ### Dataset Description
 
 The dataset used in this project typically contains two columns:
@@ -35,6 +38,7 @@ The dataset used in this project typically contains two columns:
 
 Before applying machine learning, these raw text reviews are cleaned, tokenized, and converted into numerical vectors using TF-IDF, which reflects how important a word is to a document in a corpus.
 
+---
 ###  Project Workflow
 
 1. **Data Loading and Inspection**: The CSV dataset was loaded using Pandas, and basic statistics like class distribution and null values were inspected.
@@ -54,10 +58,12 @@ Before applying machine learning, these raw text reviews are cleaned, tokenized,
    * Performance metrics like **Accuracy**, **Precision**, **Recall**, and **F1-Score** were computed using Scikit-learn’s evaluation functions.
    * A **confusion matrix** was plotted to visualize the model's ability to distinguish between positive and negative sentiments.
 
+---
 ### Analysis and Insights
 
 The Logistic Regression model performed well on the dataset, providing a good balance between precision and recall. TF-IDF proved effective at capturing word importance while reducing the noise from overly common terms. This model can be fine-tuned further with n-grams or even enhanced using other models like Naive Bayes, SVM, or deep learning approaches in future extensions.
 
+---
 ### Applications of Sentiment Analysis
 
 Sentiment analysis plays a vital role in many real-world scenarios:
@@ -69,6 +75,7 @@ Sentiment analysis plays a vital role in many real-world scenarios:
 * **Healthcare**: Extracting patient emotions from feedback or consultation records.
 
 
+---
 ### Conclusion
 
 This project provides an end-to-end pipeline for performing sentiment analysis using NLP in Python, implemented entirely in **Jupyter Notebook**. From text cleaning to vectorization and model evaluation, each step demonstrates the practical application of machine learning in analyzing textual data. The approach is modular, easy to understand, and forms the foundation for more advanced NLP systems. This notebook showcases not only technical implementation but also emphasizes model explainability and relevance in real-world use cases.
